@@ -14,3 +14,8 @@ MongoDB only has a data for the images and the name of the monster.
 Frontend still has another database connection from the Monster Hunter World API which has more detailed information on some of the monsters.
 
 The database I created was with webscraping the monster hunter wiki for the images for each monster and their names.
+
+In the folder named backend, is the location of the files needed to create the server.
+Backend was created using node js with some frameworks, cors, express, mongodb, and nodemon.
+
+Create a basic node js web server
