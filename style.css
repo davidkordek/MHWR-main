@@ -1,0 +1,68 @@
+body {
+    background-color: #008080;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.monsters-container {
+    display: flex;
+    flex-wrap : wrap;    
+    margin: 0 auto;
+    justify-content: center;
+    gap: 5px;
+}
+
+.monster {
+    width: 250px;
+    height: 250px;
+    background-color:#808080;
+    margin: 3px 0;
+    position: relative;
+    border: 3px solid #000;
+}
+
+.monster-description {
+    padding-top: 5px;
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+    cursor:pointer;
+}
+
+.weaknesses {
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.weakness {
+    width: 3rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.weakness-image {
+    width: min(25px,100%);
+}
+.monster-image {
+    width: min(70px,100%);
+    position: absolute;
+    top:0;
+    left:180px;
+}
+
